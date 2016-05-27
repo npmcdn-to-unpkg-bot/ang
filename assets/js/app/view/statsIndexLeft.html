@@ -1,0 +1,7 @@
+<ul class="list-group clear-list m-t">
+	<li class="list-group-item" ng-repeat="rem in remuneration" ng-class="{'fist-item':$first}">
+		<i-check ng-model="statsIndexLeftController"></i-check>
+		{{rem.libelle}}
+		<span class="pull-right">{{rem.volume}}</span>
+	</li>
+</ul>
